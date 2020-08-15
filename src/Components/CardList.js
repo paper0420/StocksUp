@@ -2,16 +2,18 @@ import React from 'react';
 import Card from './Card';
 
 
-const CardList = ({ robots }) => {
+const CardList = ({ stocks, prices }) => {
     return (
         <div>
             {
-                robots.map((user, i) => {
+                stocks.map((user, i) => {
+                    let priceObject = prices.filter(t => t.id === stocks[i].stock_id)[0];
                     return <Card
                         key={i}
-                        id={robots[i].id}
-                        name={robots[i].name}
-                        email={robots[i].email}
+                        id={stocks[i].stock_id}
+                        name={stocks[i].name}
+                        symbol={stocks[i].short_name}
+                        price={priceObject == null ? 0 : priceObject.price}
                     />
                 })
             }
