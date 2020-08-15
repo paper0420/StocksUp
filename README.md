@@ -1,2 +1,2 @@
-# robofriends
-Learning React component
+# Stocks Up
+Website for checking stock prices 
