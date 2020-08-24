@@ -30,9 +30,6 @@ class App extends Component {
 
         //     )
 
-
-
-
         fetch('https://fcsapi.com/api-v2/stock/list?country=United-states&access_key=FT8DEOmaTBENI5Ai1plueQBn0DmBI7CVz19FAonyUjuurONg8y')
             .then(response => response.json())
             .then(stockResponse => {
