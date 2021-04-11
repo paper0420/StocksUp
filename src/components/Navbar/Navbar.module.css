@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    width: 1000px;
+    /* border-style:solid;
+    border-color: rgb(180, 180, 180);
+    border-radius: 5px; */
+    margin: 15px;
+  }
+
+  .item{
+      margin-right: 30px;
+  }
+
+  .item:hover,
+  .item:focus,
+  .item:active {
+    color: #0070f3;
+    border-color: #0070f3;
+    background-color: lightblue;
+    border-radius: 2px;
+  }
+
+

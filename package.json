@@ -2,14 +2,20 @@
   "name": "stocksup",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://paper0420.github.io/StocksUp",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
