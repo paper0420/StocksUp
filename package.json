@@ -2,7 +2,7 @@
   "name": "stocksup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://paper0420.github.io/StocksUp",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
