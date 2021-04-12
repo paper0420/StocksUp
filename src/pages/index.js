@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { useState, useEffect } from 'react'
 import CardLists from '../components/CardLists/CardLists'
-import Link from 'next/Link'
+
 import Navbar from '../components/Navbar/Navbar'
 import SearchBox from '../components/SearchBox/SearchBox'
 
@@ -60,7 +60,7 @@ export default function Home() {
 
   }, []);
 
-  
+
   return (
 
     <div className={styles.container}>
